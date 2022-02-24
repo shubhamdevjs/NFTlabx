@@ -1,40 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
-import {
-  Banner,
-  MainSection,
-  RightColumn,
-  SideMenu,
-  TabSection,
-} from "./components";
-
-//Customizing colours
-// import { createTheme, ThemeProvider } from "@mui/material/styles";
-
-// const theme = createTheme({
-//   status: {
-//     danger: "#e53e3e",
-//   },
-//   palette: {
-//     primary: {
-//       main: "#3772FF",
-//       darker: "#053e85",
-//     },
-//     neutral: {
-//       main: "#A3E3FF",
-//       contrastText: "#fff",
-//     },
-//   },
-// });
+import { Banner, MainSection, RightColumn, SideMenu } from "./components";
 
 const App = () => {
+  const [backendData, setbackendData] = useState([{}]);
+
+  useEffect(() => {
+    fetch("/data")
+      .then((response) => response.json())
+      .then((data) => {
+        setbackendData(data);
+      });
+  }, []);
+
   return (
     <div className="App">
       <Banner />
       <div className="app">
         <SideMenu />
         <MainSection />
-          <RightColumn />
+        <RightColumn />
       </div>
     </div>
   );

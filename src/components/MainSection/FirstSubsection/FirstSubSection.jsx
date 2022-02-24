@@ -12,7 +12,7 @@ const FirstSubsection = () => (
       </div>
       <div className="first_row_wallet">
         <div className="wallet_first">
-          <AccountBalanceWalletOutlinedIcon />
+          <AccountBalanceWalletOutlinedIcon /> 
         </div>
         <div className="wallet_second">0.2 $XYZ</div>
         <div className="wallet_third">Tier 1</div>

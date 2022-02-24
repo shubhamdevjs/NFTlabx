@@ -8,6 +8,9 @@
     text-underline-position: under;
     text-decoration-color: #3772FF; */
 }
+.first_row_text:hover{
+    cursor: pointer;
+}
 .first_row_underline{
     margin: 5px 0;
     width: 100%;
@@ -23,6 +26,11 @@
     padding: 0 1rem;
     align-items: center;
 }
+.first_row_wallet:hover{
+    cursor: pointer;
+    background-color:#2f3033 ;
+}
+
 .wallet_first{
     padding: 0;
     margin: 0;

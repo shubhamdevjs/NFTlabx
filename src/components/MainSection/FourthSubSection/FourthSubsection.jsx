@@ -7,7 +7,7 @@ import ContentCopyTwoToneIcon from '@mui/icons-material/ContentCopyTwoTone';
 const FourthSubsection = () => {
   return (
     <div>
-      <div className="fourth_section">
+      <div className="fourth_section"> 
         <div className="fourth_section_left">
           <div className="fourth_section_left_a">
             <div><img src={Oval} alt="" /></div>
@@ -16,7 +16,7 @@ const FourthSubsection = () => {
           <div className="fourth_section_left_b">Your referral link for xyz</div>
           <div className="fourth_section_left_c">
               <p>https://unityexchange.design </p>
-              <div><ContentCopyTwoToneIcon/></div>
+              <div id="fourth_section_left_c_icon"><ContentCopyTwoToneIcon/></div>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ const FourthSubsection = () => {
           <div className="fourth_section_left_b">Your referral link for xyz</div>
           <div className="fourth_section_left_c">
               <p>https://unityexchange.design </p>
-              <div><ContentCopyTwoToneIcon/></div>
+              <div id="fourth_section_left_c_icon"><ContentCopyTwoToneIcon/></div>
           </div>
         </div>
       </div>

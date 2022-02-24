@@ -12,6 +12,9 @@ import PieChartRoundedIcon from "@mui/icons-material/PieChartRounded";
 import LeaderboardOutlinedIcon from "@mui/icons-material/LeaderboardOutlined";
 import ShareOutlinedIcon from "@mui/icons-material/ShareOutlined";
 import ArticleOutlinedIcon from "@mui/icons-material/ArticleOutlined";
+import LanguageIcon from "@mui/icons-material/Language";
+import DarkModeIcon from "@mui/icons-material/DarkMode";
+import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
 const Categories = (props) => (
   <div className="nav_categories_content">
@@ -65,7 +68,19 @@ const SideMenu = () => (
       </Button> */}
         <button className="button-bottom button2">Buy $XYZ</button>
       </div>
+      <div className="night_mode">
+        <div id="bottom_icon">
+          <LanguageIcon />
+        </div>
+        <div className="moon_dot">
+          <div id="moon_dot_moon">
+            <DarkModeIcon />
+          </div>
+          <div id="moon_dot_dot"><FiberManualRecordIcon/></div>
+        </div>
+      </div>
     </div>
+
     <div className="vertical"></div>
   </div>
 );

@@ -1,7 +1,7 @@
 import React from "react";
 import "./RightColumn.css";
 
-
+ 
 import LogoutIcon from "@mui/icons-material/Logout";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import Ellipse from "../../assets/Ellipse.png";

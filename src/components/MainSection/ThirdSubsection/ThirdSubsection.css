@@ -36,9 +36,6 @@
     
 }
 
-#button_style :hover{
-    cursor: pointer;
-}
 #button_style{
     display: flex;
     justify-content: center;
@@ -53,7 +50,9 @@
     padding: 6px 11px;
     font-family: var(--font-family);
 }
-
+#button_style :hover{
+    cursor: pointer;
+}
 @media screen and (max-width: 768px) {
     #button_style{
         display: flex;

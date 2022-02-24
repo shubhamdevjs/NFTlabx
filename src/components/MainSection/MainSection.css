@@ -4,9 +4,9 @@
     align-items: flex-start;
     margin: 33px 0 ;
 }
-/* @media screen and (min-widht: 768px ) {
-    .main-section{
-        margin-left: 66px;
+/* @media screen and (max-widht: 1100px ) {
+    .main-section_sub_sections{
+        padding: 0 1rem;
     }
     
 } */

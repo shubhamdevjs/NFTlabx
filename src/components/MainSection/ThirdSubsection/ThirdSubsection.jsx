@@ -3,7 +3,7 @@ import "./ThirdSubsection.css"
 
 import OpenInNewRoundedIcon from '@mui/icons-material/OpenInNewRounded';
 
-const ThirdSubsection = () => {
+const ThirdSubsection = () => { 
   return (
     <div>
       <div className="third_section">

@@ -37,6 +37,9 @@
     margin-left: 35px;
     color: white;
 }
+#fourth_section_left_c_icon:hover{
+    cursor: pointer;
+}
 
 #span{
     font-weight: 600;
