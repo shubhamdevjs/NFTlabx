@@ -1,0 +1,43 @@
+.second_section{
+    /* display: flex; */
+    /* gap: 0.5rem; */
+    background-color: #ABE8FF;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+}
+.second_section_text_button{
+    color: #2B2557;
+    font-family: var(--font-family);
+
+}
+.second_section_text{
+    font-weight: 500;
+}
+.second_section_button{
+    margin-top: .5rem;
+    color: #2B2557;
+    border: none;
+    padding: 2px 12px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+.second_section_image{
+    float: right;
+    margin-left: auto;
+    margin-top: -63px;
+    position: relative;   
+}
+
+
+@media screen and (max-width: 768px) {
+    .second_section_image{
+        float: right;
+        margin-left: auto;
+        margin-top: -47px;
+        position: relative;   
+    }
+    
+}

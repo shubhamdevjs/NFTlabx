@@ -1,0 +1,5 @@
+export {default as Banner} from "./Banner/Banner"
+export {default as MainSection} from "./MainSection/MainSection"
+export {default as RightColumn} from "./RightColumn/RightColumn"
+export {default as SideMenu} from "./SideMenu/SideMenu"
+// export {default as TabSection} from "./TabSection/TabSection.jsx"

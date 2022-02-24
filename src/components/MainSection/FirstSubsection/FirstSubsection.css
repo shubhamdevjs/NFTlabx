@@ -1,0 +1,45 @@
+.main_section_first_row{
+    display: flex;
+    justify-content: space-between;
+}
+.first_row_text{
+    font-family: var(--font-family);
+    /* text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #3772FF; */
+}
+.first_row_underline{
+    margin: 5px 0;
+    width: 100%;
+    border-top: 3px solid #3772FF;
+}
+
+
+.first_row_wallet{
+    display: flex;
+    gap: 1rem;
+    background-color:#191B20; 
+    border-radius: 12px;
+    padding: 0 1rem;
+    align-items: center;
+}
+.wallet_first{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    color: #3772FF;
+}
+.wallet_second{
+    font-family:var(--font-family) ;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.wallet_third{
+    background-color:#A3E3FF;
+    color: #3772FF;
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-size: 12px;
+}

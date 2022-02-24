@@ -1,0 +1,15 @@
+.banner{
+    text-align: center;
+    font-weight: 500;
+    background-color: #3772FF;
+    color: white;
+    padding:  10px 0;
+    Size:14px;
+    line-height:18px;
+    font-family: var(--font-family);
+}
+.banner_text {
+    position: absolute;
+    
+    
+}
